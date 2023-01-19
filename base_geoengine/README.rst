@@ -10,9 +10,9 @@ Geospatial support for Odoo
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/licence-LGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
-    :alt: License: AGPL-3
+    :alt: License: LGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fgeospatial-lightgray.png?logo=github
     :target: https://github.com/OCA/geospatial/tree/13.0/base_geoengine
     :alt: OCA/geospatial
@@ -102,24 +102,15 @@ Authors
 Contributors
 ~~~~~~~~~~~~
 
-* Nicolas Bessi <nicolas.bessi@camptocamp.com>
+* Alexandre Fayolle <alexandre.fayolle@camptocamp.com>
 * Frederic Junod <frederic.junod@camptocamp.com>
-* Yannick Vaucher <yannick.vaucher@camptocamp.com>
-* Sandy Carter <sandy.carter@savoirfairelinux.com>
+* Guewen Baconnier <guewen.baconnier@camptocamp.com>
 * Laurent Mignon <laurent.mignon@acsone.eu>
-* Jonathan Nemry <jonathan.nemry@acsone.eu>
-* David Lasley <dave@dlasley.net>
-* Daniel Reis <dgreis@sapo.pt>
-* Matthieu Dietrich <matthieu.dietrich@camptocamp.com>
-* Alan Ramos <alan.ramos@jarsa.com.mx>
-* Damien Crier <damien.crier@camptocamp.com>
-* Cyril Gaudin <cyril.gaudin@camptocamp.com>
-* Pierre Verkest <pverkest@anybox.fr>
+* Nicolas Bessi <nicolas.bessi@camptocamp.com>
+* Sandy Carter <sandy.carter@savoirfairelinux.com>
+* Vincent Renaville <vincent.renaville@camptocamp.com>
+* Yannick Vaucher <yannick.vaucher@camptocamp.com>
 * Benjamin Willig <benjamin.willig@acsone.eu>
-* Devendra Kavthekar <dkatodoo@gmail.com>
-* Emanuel Cino <ecino@compassion.ch>
-* Thomas Nowicki <thomas.nowicki@camptocamp.com>
-* Alexandre Saunier <alexandre.saunier@camptocamp.com>
 * Sandip Mangukiya <smangukiya@opensourceintegrators.com>
 
 Maintainers

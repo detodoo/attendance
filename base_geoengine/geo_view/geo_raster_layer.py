@@ -1,6 +1,6 @@
 # Copyright 2011-2012 Nicolas Bessi (Camptocamp SA)
 # Copyright 2016 Yannick Vaucher (Camptocamp SA)
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 from odoo import api, fields, models
 
 
@@ -28,8 +28,8 @@ class GeoRasterLayer(models.Model):
         default="osm",
         required=True,
     )
-    name = fields.Char("Layer Name", size=256, translate=True, required=True)
-    url = fields.Char("Service URL", size=1024)
+    name = fields.Char("Layer Name", translate=True, required=True)
+    url = fields.Char("Service URL")
 
     # technical field to display or not wmts options
     is_wmts = fields.Boolean(compute="_compute_is_wmts")
@@ -75,3 +75,4 @@ class GeoRasterLayer(models.Model):
     @api.onchange("raster_type")
     def onchange_set_wmts_options(self):
         """ Abstract method for WMTS modules to set default options """
+        pass
